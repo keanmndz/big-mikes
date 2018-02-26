@@ -17,3 +17,4 @@ C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Account
 C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
 C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
 C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources

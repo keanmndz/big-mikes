@@ -79,5 +79,7 @@ namespace Big_Mikes_Accounting_Information_System.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        public static System.Drawing.Image logo { get; set; }
     }
 }

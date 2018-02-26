@@ -29,6 +29,14 @@ namespace Big_Mikes_Accounting_Information_System
             {
                 MessageBox.Show("Please accomplish the username and password fields.", "Invalid Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            else
+            {
+                
+                var Page = new Template();
+                Page.Show();
+                
+                
+            }
         }
     }
 }
