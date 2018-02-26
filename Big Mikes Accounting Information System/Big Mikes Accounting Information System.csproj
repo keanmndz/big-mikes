@@ -59,6 +59,12 @@
     <Compile Include="Template.Designer.cs">
       <DependentUpon>Template.cs</DependentUpon>
     </Compile>
+    <Compile Include="Try Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Try Form.Designer.cs">
+      <DependentUpon>Try Form.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
