@@ -8,3 +8,12 @@ C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Acc
 C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
 C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
 C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
+C:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
+C:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
+C:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
