@@ -93,6 +93,72 @@
     <Compile Include="SalesAnalysis.Designer.cs">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Attendance.Designer.cs">
+      <DependentUpon>Secretary_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_dashboard.Designer.cs">
+      <DependentUpon>Secretary_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Disburse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Disburse.Designer.cs">
+      <DependentUpon>Secretary_Disburse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Emplist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Emplist.Designer.cs">
+      <DependentUpon>Secretary_Emplist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_NewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_NewEmployee.Designer.cs">
+      <DependentUpon>Secretary_NewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Payroll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Payroll.Designer.cs">
+      <DependentUpon>Secretary_Payroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Payslip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Payslip.Designer.cs">
+      <DependentUpon>Secretary_Payslip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Remittance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Remittance.Designer.cs">
+      <DependentUpon>Secretary_Remittance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Remittance_Pagibig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Remittance_Pagibig.Designer.cs">
+      <DependentUpon>Secretary_Remittance_Pagibig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Remittance_Philhealth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Remittance_Philhealth.Designer.cs">
+      <DependentUpon>Secretary_Remittance_Philhealth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Timesheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Timesheet.Designer.cs">
+      <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +196,39 @@
     <EmbeddedResource Include="SalesAnalysis.resx">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Attendance.resx">
+      <DependentUpon>Secretary_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_dashboard.resx">
+      <DependentUpon>Secretary_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Disburse.resx">
+      <DependentUpon>Secretary_Disburse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Emplist.resx">
+      <DependentUpon>Secretary_Emplist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_NewEmployee.resx">
+      <DependentUpon>Secretary_NewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Payroll.resx">
+      <DependentUpon>Secretary_Payroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Payslip.resx">
+      <DependentUpon>Secretary_Payslip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Remittance.resx">
+      <DependentUpon>Secretary_Remittance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Remittance_Pagibig.resx">
+      <DependentUpon>Secretary_Remittance_Pagibig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Remittance_Philhealth.resx">
+      <DependentUpon>Secretary_Remittance_Philhealth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Timesheet.resx">
+      <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +253,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\searchbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\images\uyttxprhsqycyximpzjb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
