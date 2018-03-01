@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\Metro DLLS\MetroFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
@@ -72,6 +75,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purchasing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Purchasing.Designer.cs">
+      <DependentUpon>Purchasing.cs</DependentUpon>
+    </Compile>
     <Compile Include="SalesAnalysis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +115,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Purchasing.resx">
+      <DependentUpon>Purchasing.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SalesAnalysis.resx">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </EmbeddedResource>
