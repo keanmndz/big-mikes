@@ -619,6 +619,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.DoubleBuffered = true;
             this.Name = "CashFlow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Template";
             this.Load += new System.EventHandler(this.Template_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

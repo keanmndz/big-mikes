@@ -34,7 +34,7 @@ namespace Big_Mikes_Accounting_Information_System
                 
                 var Page = new SalesAnalysis();
                 Page.Show();
-                
+                this.Hide();
                 
             }
         }

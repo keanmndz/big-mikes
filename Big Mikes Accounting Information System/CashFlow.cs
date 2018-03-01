@@ -187,7 +187,9 @@ namespace Big_Mikes_Accounting_Information_System
             button2.BackColor = Color.FromArgb(0, 255, 255, 255);
             button3.BackColor = Color.FromArgb(241, 99, 0);
             button4.BackColor = Color.FromArgb(0, 255, 255, 255);
-        
+            var Page = new Inventory();
+            Page.Show();
+            this.Close();
 
 
 

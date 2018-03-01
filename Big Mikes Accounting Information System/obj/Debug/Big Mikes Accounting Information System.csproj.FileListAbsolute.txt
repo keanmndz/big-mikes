@@ -104,3 +104,4 @@ C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes 
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
 >>>>>>> 438c74958b703af197f155fb067e3f015e7d210d
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources

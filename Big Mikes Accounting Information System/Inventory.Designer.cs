@@ -37,7 +37,6 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -46,24 +45,24 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.templateBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Dashboard = new System.Windows.Forms.TabControl();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Dashboard = new System.Windows.Forms.TabControl();
+            this.templateBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.programBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.templateBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).BeginInit();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.Dashboard.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.templateBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -95,7 +94,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.label1);
@@ -122,21 +120,6 @@
             this.button7.TabIndex = 29;
             this.button7.Text = "Log Out";
             this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Sitka Heading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(7, 327);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(173, 36);
-            this.button5.TabIndex = 28;
-            this.button5.Text = "Button 5";
-            this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -168,6 +151,7 @@
             this.button3.TabIndex = 26;
             this.button3.Text = "Inventory";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -202,6 +186,7 @@
             this.button2.TabIndex = 25;
             this.button2.Text = "Purchasing";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 
@@ -236,14 +221,6 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 28);
             this.label4.TabIndex = 16;
-            // 
-            // templateBindingSource
-            // 
-            this.templateBindingSource.DataSource = typeof(Big_Mikes_Accounting_Information_System.CashFlow);
-            // 
-            // programBindingSource
-            // 
-            this.programBindingSource.DataSource = typeof(Big_Mikes_Accounting_Information_System.Program);
             // 
             // tabPage1
             // 
@@ -303,16 +280,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(816, 488);
             this.dataGridView1.TabIndex = 23;
             // 
-            // Dashboard
-            // 
-            this.Dashboard.Controls.Add(this.tabPage1);
-            this.Dashboard.Location = new System.Drawing.Point(190, 24);
-            this.Dashboard.Margin = new System.Windows.Forms.Padding(2);
-            this.Dashboard.Name = "Dashboard";
-            this.Dashboard.SelectedIndex = 0;
-            this.Dashboard.Size = new System.Drawing.Size(823, 535);
-            this.Dashboard.TabIndex = 24;
-            // 
             // Column6
             // 
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
@@ -355,6 +322,24 @@
             this.Column4.ReadOnly = true;
             this.Column4.Width = 150;
             // 
+            // Dashboard
+            // 
+            this.Dashboard.Controls.Add(this.tabPage1);
+            this.Dashboard.Location = new System.Drawing.Point(190, 24);
+            this.Dashboard.Margin = new System.Windows.Forms.Padding(2);
+            this.Dashboard.Name = "Dashboard";
+            this.Dashboard.SelectedIndex = 0;
+            this.Dashboard.Size = new System.Drawing.Size(823, 535);
+            this.Dashboard.TabIndex = 24;
+            // 
+            // templateBindingSource
+            // 
+            this.templateBindingSource.DataSource = typeof(Big_Mikes_Accounting_Information_System.CashFlow);
+            // 
+            // programBindingSource
+            // 
+            this.programBindingSource.DataSource = typeof(Big_Mikes_Accounting_Information_System.Program);
+            // 
             // Inventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -369,15 +354,16 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Inventory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Purchasing";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.templateBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).EndInit();
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.Dashboard.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.templateBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.programBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -394,7 +380,6 @@
         private System.Windows.Forms.Label label4;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.BindingSource programBindingSource;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
