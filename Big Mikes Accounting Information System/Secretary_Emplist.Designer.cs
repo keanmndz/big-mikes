@@ -59,13 +59,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -324,7 +322,6 @@
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Location = new System.Drawing.Point(202, 424);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(740, 247);
@@ -427,16 +424,6 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "Last Name";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(29, 25);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(170, 173);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // Secretary_Emplist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -461,7 +448,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -484,7 +470,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;

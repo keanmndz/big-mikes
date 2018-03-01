@@ -65,7 +65,6 @@
             this.label22 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -81,7 +80,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -271,7 +269,6 @@
             this.panel2.Controls.Add(this.label22);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label15);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label13);
@@ -547,16 +544,6 @@
             this.button5.Text = "Add Picture";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
-            this.pictureBox2.Location = new System.Drawing.Point(22, 97);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(147, 149);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -704,7 +691,6 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -732,7 +718,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;

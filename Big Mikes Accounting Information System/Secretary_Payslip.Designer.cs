@@ -39,7 +39,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -101,13 +100,12 @@
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -259,17 +257,6 @@
             this.label5.Size = new System.Drawing.Size(159, 35);
             this.label5.TabIndex = 15;
             this.label5.Text = "Payslip Report";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(15, 46);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(115, 112);
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
             // 
             // label6
             // 
@@ -955,7 +942,6 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.label65);
-            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label64);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label63);
@@ -1026,28 +1012,16 @@
             this.panel2.TabIndex = 77;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // label4
+            // label68
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(512, 414);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 28);
-            this.label4.TabIndex = 62;
-            this.label4.Text = "Allowance";
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label66.Location = new System.Drawing.Point(690, 414);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(61, 28);
-            this.label66.TabIndex = 68;
-            this.label66.Text = "00.00";
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label68.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label68.Location = new System.Drawing.Point(485, 389);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(59, 28);
+            this.label68.TabIndex = 71;
+            this.label68.Text = "Add : ";
             // 
             // label67
             // 
@@ -1060,16 +1034,28 @@
             this.label67.TabIndex = 70;
             this.label67.Text = "00.00";
             // 
-            // label68
+            // label66
             // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label68.Location = new System.Drawing.Point(485, 389);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(59, 28);
-            this.label68.TabIndex = 71;
-            this.label68.Text = "Add : ";
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label66.Location = new System.Drawing.Point(690, 414);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(61, 28);
+            this.label66.TabIndex = 68;
+            this.label66.Text = "00.00";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(512, 414);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(92, 28);
+            this.label4.TabIndex = 62;
+            this.label4.Text = "Allowance";
             // 
             // Secretary_Payslip
             // 
@@ -1087,7 +1073,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -1108,7 +1093,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
