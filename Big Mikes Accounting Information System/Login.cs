@@ -32,7 +32,7 @@ namespace Big_Mikes_Accounting_Information_System
             else
             {
                 
-                var Page = new Template();
+                var Page = new CashFlow();
                 Page.Show();
                 
                 

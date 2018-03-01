@@ -31,3 +31,6 @@ C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\D
 C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
 C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
 C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
