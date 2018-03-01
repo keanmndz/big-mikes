@@ -43,6 +43,7 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.btnDone = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -75,7 +76,6 @@
             this.button12 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -314,6 +314,13 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(344, 749);
             this.panel3.TabIndex = 5;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(8, 3);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(324, 20);
+            this.dateTimePicker2.TabIndex = 59;
             // 
             // btnDone
             // 
@@ -592,6 +599,7 @@
             this.button19.TabIndex = 57;
             this.button19.Text = "Logout";
             this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button10
             // 
@@ -741,13 +749,6 @@
             this.label8.Size = new System.Drawing.Size(82, 25);
             this.label8.TabIndex = 57;
             this.label8.Text = "Sizzlers";
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(8, 3);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(324, 20);
-            this.dateTimePicker2.TabIndex = 59;
             // 
             // POS
             // 

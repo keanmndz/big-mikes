@@ -16,5 +16,12 @@ namespace Big_Mikes_Accounting_Information_System
         {
             InitializeComponent();
         }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Login obj1 = new Login();
+            obj1.Show();
+            this.Hide();
+        }
     }
 }

@@ -52,5 +52,12 @@ namespace Big_Mikes_Accounting_Information_System
             Page.Show();
             this.Close();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Login obj1 = new Login();
+            obj1.Show();
+            this.Hide();
+        }
     }
 }
