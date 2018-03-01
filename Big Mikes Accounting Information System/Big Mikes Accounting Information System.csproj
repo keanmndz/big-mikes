@@ -32,10 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroFramework">
-      <HintPath>..\..\..\..\Metro DLLS\MetroFramework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
@@ -163,6 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\searchbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\images\attendance-icon-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\images\login-icon-white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
