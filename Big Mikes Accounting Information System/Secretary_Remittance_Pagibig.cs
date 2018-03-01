@@ -44,5 +44,11 @@ namespace Big_Mikes_Accounting_Information_System
             var Page = new Secretary_Remittance_Philhealth();
             Page.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var page = new Login();
+            page.Show();
+        }
     }
 }

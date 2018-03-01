@@ -62,5 +62,11 @@ namespace Big_Mikes_Accounting_Information_System
             chart2.Series["Department"].Points.AddXY("Cook", 2);
             chart2.Series["Department"].Points.AddXY("Maintenance", 2);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var page = new Login();
+            page.Show();
+        }
     }
 }

@@ -42,6 +42,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -80,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -121,6 +123,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "Log Out";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -246,6 +249,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.textBox7);
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.textBox6);
@@ -287,6 +291,16 @@
             this.panel2.Size = new System.Drawing.Size(741, 506);
             this.panel2.TabIndex = 15;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
+            this.pictureBox2.Location = new System.Drawing.Point(13, 115);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(167, 131);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 62;
+            this.pictureBox2.TabStop = false;
             // 
             // textBox7
             // 
@@ -691,6 +705,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -746,5 +761,6 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -51,6 +51,7 @@
             this.button10 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button7 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -64,6 +65,7 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -99,12 +101,13 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Sitka Heading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(-1, 543);
+            this.button6.Location = new System.Drawing.Point(-1, 536);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(173, 36);
+            this.button6.Size = new System.Drawing.Size(173, 41);
             this.button6.TabIndex = 6;
             this.button6.Text = "Log Out";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -314,6 +317,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.button7);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label9);
@@ -326,6 +330,16 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(740, 247);
             this.panel3.TabIndex = 12;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
+            this.pictureBox2.Location = new System.Drawing.Point(40, 37);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(174, 154);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
             // 
             // button7
             // 
@@ -429,7 +443,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.background;
-            this.ClientSize = new System.Drawing.Size(954, 701);
+            this.ClientSize = new System.Drawing.Size(954, 712);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label3);
@@ -448,6 +462,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -486,5 +501,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

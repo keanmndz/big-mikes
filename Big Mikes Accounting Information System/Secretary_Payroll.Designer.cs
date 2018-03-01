@@ -92,6 +92,7 @@
             this.button6.TabIndex = 6;
             this.button6.Text = "Log Out";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -388,7 +389,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.background;
-            this.ClientSize = new System.Drawing.Size(971, 706);
+            this.ClientSize = new System.Drawing.Size(971, 714);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
