@@ -31,5 +31,19 @@ namespace Big_Mikes_Accounting_Information_System
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var Page = new CashFlow();
+            Page.Show();
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var Page = new Purchasing();
+            Page.Show();
+            this.Close();
+        }
     }
 }

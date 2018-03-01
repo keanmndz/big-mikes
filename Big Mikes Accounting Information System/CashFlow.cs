@@ -48,11 +48,7 @@ namespace Big_Mikes_Accounting_Information_System
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
 
-            button5.TabStop = false;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
-
+          
             this.dataGridView1.Rows.Add(14);
             this.dataGridView1.Rows[0].Cells[0].Value = "Beginning Cash Balance:";
             this.dataGridView1.Rows[1].Cells[0].Value = "    Cash in-flows(Receipts)";
@@ -161,7 +157,7 @@ namespace Big_Mikes_Accounting_Information_System
             button2.BackColor = Color.FromArgb(0, 255, 255, 255);
             button3.BackColor = Color.FromArgb(0, 255, 255, 255);
             button4.BackColor = Color.FromArgb(0, 255, 255, 255);
-            button5.BackColor = Color.FromArgb(0, 255, 255, 255);
+          
 
             var Page = new SalesAnalysis();
             Page.Show();
@@ -177,7 +173,7 @@ namespace Big_Mikes_Accounting_Information_System
             button2.BackColor = Color.FromArgb(241, 99, 0);
             button3.BackColor = Color.FromArgb(0, 255, 255, 255);
             button4.BackColor = Color.FromArgb(0, 255, 255, 255);
-            button5.BackColor = Color.FromArgb(0, 255, 255, 255);
+           
 
             //DataView my_DataView = ds.Tables[0].DefaultView;
             //this.dataGridView1.DataSource = my_DataView;
@@ -191,7 +187,7 @@ namespace Big_Mikes_Accounting_Information_System
             button2.BackColor = Color.FromArgb(0, 255, 255, 255);
             button3.BackColor = Color.FromArgb(241, 99, 0);
             button4.BackColor = Color.FromArgb(0, 255, 255, 255);
-            button5.BackColor = Color.FromArgb(0, 255, 255, 255);
+        
 
 
 
@@ -203,7 +199,7 @@ namespace Big_Mikes_Accounting_Information_System
             button2.BackColor = Color.FromArgb(0, 255, 255, 255);
             button3.BackColor = Color.FromArgb(0, 255, 255, 255);
             button4.BackColor = Color.FromArgb(241, 99, 0);
-            button5.BackColor = Color.FromArgb(0, 255, 255, 255);
+         
 
             var Page = new Purchasing();
             Page.Show();
@@ -216,7 +212,7 @@ namespace Big_Mikes_Accounting_Information_System
             button2.BackColor = Color.FromArgb(0, 255, 255, 255);
             button3.BackColor = Color.FromArgb(0, 255, 255, 255);
             button4.BackColor = Color.FromArgb(0, 255, 255, 255);
-            button5.BackColor = Color.FromArgb(241, 99, 0);
+          
         }
 
         private void button6_Click(object sender, EventArgs e)
