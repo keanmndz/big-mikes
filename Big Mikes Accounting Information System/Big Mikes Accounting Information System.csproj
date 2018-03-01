@@ -52,6 +52,12 @@
     <Compile Include="CashFlow.Designer.cs">
       <DependentUpon>CashFlow.cs</DependentUpon>
     </Compile>
+    <Compile Include="GeneralLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger.designer.cs">
+      <DependentUpon>GeneralLedger.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </Compile>
     <EmbeddedResource Include="CashFlow.resx">
       <DependentUpon>CashFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLedger.resx">
+      <DependentUpon>GeneralLedger.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
