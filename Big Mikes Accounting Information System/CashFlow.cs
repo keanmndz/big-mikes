@@ -69,6 +69,22 @@ namespace Big_Mikes_Accounting_Information_System
             this.dataGridView1.Rows[12].Cells[0].Value = "Total Cash Out-Flows:";
             this.dataGridView1.Rows[13].Cells[0].Value = "Ending Cash Balance:";
 
+            this.dataGridView2.Rows.Add(14);
+            this.dataGridView2.Rows[0].Cells[0].Value = "Beginning Cash Balance:";
+            this.dataGridView2.Rows[1].Cells[0].Value = "    Cash in-flows(Receipts)";
+            this.dataGridView2.Rows[2].Cells[0].Value = "       Cash Receipts:";
+            this.dataGridView2.Rows[3].Cells[0].Value = "       Card Receipts:";
+            this.dataGridView2.Rows[4].Cells[0].Value = "       Others:";
+            this.dataGridView2.Rows[5].Cells[0].Value = "    Total Cash-InFlows:";
+            this.dataGridView2.Rows[6].Cells[0].Value = "    Cash Outflows (payment)";
+            this.dataGridView2.Rows[7].Cells[0].Value = "       Food Stocks:";
+            this.dataGridView2.Rows[8].Cells[0].Value = "       Beverage Stocks:";
+            this.dataGridView2.Rows[9].Cells[0].Value = "       Other Suplies and Services:";
+            this.dataGridView2.Rows[10].Cells[0].Value = "      Payroll:";
+            this.dataGridView2.Rows[11].Cells[0].Value = "      Utility:";
+            this.dataGridView2.Rows[12].Cells[0].Value = "Total Cash Out-Flows:";
+            this.dataGridView2.Rows[13].Cells[0].Value = "Ending Cash Balance:";
+
         }
 
         private void Template_Load(object sender, EventArgs e)
@@ -188,6 +204,10 @@ namespace Big_Mikes_Accounting_Information_System
             button3.BackColor = Color.FromArgb(0, 255, 255, 255);
             button4.BackColor = Color.FromArgb(241, 99, 0);
             button5.BackColor = Color.FromArgb(0, 255, 255, 255);
+
+            var Page = new Purchasing();
+            Page.Show();
+            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -229,12 +249,50 @@ namespace Big_Mikes_Accounting_Information_System
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            label4.Text = comboBox1.SelectedItem.ToString();
+          
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            string month = comboBox1.Text;
+            string year = comboBox2.Text;
+           
+                if (month == "  None" && year != "   Select Year")
+                {
+                    dataGridView2.Visible = true;
+                    dataGridView1.Visible = false;
+                }
+                if (month != "  None" && year != "   Select Year" && month != "   Select Year")
+                {
+                    dataGridView1.Visible = true;
+                    dataGridView2.Visible = false;
+                }
+
+                if (year == "  2019" || year == "  2020" || year == "  2021" || year == "  2022" || year == "  2023" || year == "  2024" || year == "  2025" || year == "  2026" || year == "  2027" || year == "  2028" || year == "  2029" || year == "  2030")
+                {
+                    dataGridView1.Visible = false;
+                    dataGridView2.Visible = false;
+                }
+            
+          
+                int numyear = Int32.Parse(year);
+                if (numyear > 2018 || numyear < 2011)
+                {
+                    dataGridView1.Visible = false;
+                    dataGridView2.Visible = false;
+
+                    NoRecords frm = new NoRecords();
+                    frm.ShowDialog(this);
+                    frm.Dispose();
+                }
+            
+            
+           
         }
 
         

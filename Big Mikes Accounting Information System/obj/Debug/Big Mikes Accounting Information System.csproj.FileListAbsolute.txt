@@ -65,3 +65,6 @@ C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mi
 C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
 C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\bin\Debug\MetroFramework.dll
 C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
+C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources

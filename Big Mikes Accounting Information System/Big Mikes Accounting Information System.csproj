@@ -52,7 +52,7 @@
     <Compile Include="CashFlow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CashFlow.Designer.cs">
+    <Compile Include="CashFlow.designer.cs">
       <DependentUpon>CashFlow.cs</DependentUpon>
     </Compile>
     <Compile Include="GeneralLedger.cs">
@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoRecords.designer.cs">
+      <DependentUpon>NoRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="POS.cs">
       <SubType>Form</SubType>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoRecords.resx">
+      <DependentUpon>NoRecords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="POS.resx">
       <DependentUpon>POS.cs</DependentUpon>
@@ -142,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\images\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\searchbutton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
