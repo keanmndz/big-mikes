@@ -293,6 +293,10 @@ namespace Big_Mikes_Accounting_Information_System
            
         }
 
-        
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var Page = new print();
+            Page.Show();
+        }
     }
 }

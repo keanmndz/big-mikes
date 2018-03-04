@@ -37,5 +37,12 @@ namespace Big_Mikes_Accounting_Information_System
             Page.Show();
             this.Close();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var Page = new AddPO();
+            Page.Show();
+            this.Close();
+        }
     }
 }

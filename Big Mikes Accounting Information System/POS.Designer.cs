@@ -255,7 +255,7 @@
             this.panel2.Controls.Add(this.button8);
             this.panel2.Location = new System.Drawing.Point(0, 52);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1370, 52);
+            this.panel2.Size = new System.Drawing.Size(1362, 52);
             this.panel2.TabIndex = 4;
             // 
             // button17
@@ -310,9 +310,9 @@
             this.panel3.Controls.Add(this.ProductOrder);
             this.panel3.Controls.Add(this.panel5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1026, 0);
+            this.panel3.Location = new System.Drawing.Point(1018, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(344, 749);
+            this.panel3.Size = new System.Drawing.Size(344, 741);
             this.panel3.TabIndex = 5;
             // 
             // dateTimePicker2
@@ -332,7 +332,7 @@
             this.btnDone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDone.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDone.ForeColor = System.Drawing.Color.White;
-            this.btnDone.Location = new System.Drawing.Point(8, 694);
+            this.btnDone.Location = new System.Drawing.Point(8, 686);
             this.btnDone.Name = "btnDone";
             this.btnDone.Size = new System.Drawing.Size(324, 43);
             this.btnDone.TabIndex = 37;
@@ -578,9 +578,9 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(26)))), ((int)(((byte)(13)))));
             this.panel4.Controls.Add(this.button19);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 712);
+            this.panel4.Location = new System.Drawing.Point(0, 704);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1026, 37);
+            this.panel4.Size = new System.Drawing.Size(1018, 37);
             this.panel4.TabIndex = 6;
             // 
             // button19
@@ -744,7 +744,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(921, 127);
+            this.label8.Location = new System.Drawing.Point(913, 127);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(82, 25);
             this.label8.TabIndex = 57;
@@ -755,7 +755,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.background;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1362, 741);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.button11);

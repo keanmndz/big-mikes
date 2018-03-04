@@ -124,3 +124,34 @@ C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj
 C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
 C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_dashboard.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Attendance.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Disburse.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Emplist.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_NewEmployee.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payroll.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payslip.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Pagibig.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Philhealth.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Timesheet.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
+C:\backs\big-mikes3\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddItem.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddPO.resources
+C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.print.resources

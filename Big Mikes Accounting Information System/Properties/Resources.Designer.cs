@@ -10,8 +10,9 @@
 
 namespace Big_Mikes_Accounting_Information_System.Properties {
     using System;
-    
-    
+    using System.Drawing;
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,7 +20,7 @@ namespace Big_Mikes_Accounting_Information_System.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -27,7 +28,8 @@ namespace Big_Mikes_Accounting_Information_System.Properties {
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+        internal static Image uyttxprhsqycyximpzjb;
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
@@ -96,6 +98,16 @@ namespace Big_Mikes_Accounting_Information_System.Properties {
         internal static System.Drawing.Bitmap login_icon_white {
             get {
                 object obj = ResourceManager.GetObject("login-icon-white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer_6 {
+            get {
+                object obj = ResourceManager.GetObject("printer-6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

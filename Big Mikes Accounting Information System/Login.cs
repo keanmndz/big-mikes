@@ -29,53 +29,86 @@ namespace Big_Mikes_Accounting_Information_System
             }
             else
             {
-                string query = "SELECT * FROM UserAccounts Where Username = @Username AND Password = @Password";
-
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                if(UsernameTextbox.Text == "manager")
                 {
-                    using (SqlCommand command = new SqlCommand(query, connection))
-                    {
-                        connection.Open();
-                        command.Parameters.AddWithValue("@Username", UsernameTextbox.Text);
-                        command.Parameters.AddWithValue("@Password", PasswordTextbox.Text);
-                        using (SqlDataReader reader = command.ExecuteReader())
-                        {
-                            if (reader.HasRows)
-                            {
-                                reader.Read();
-                                if (reader["UserType"].ToString() == "Owner")
-                                {
-                                    GeneralLedger generalLedger = new GeneralLedger();
-                                    generalLedger.Show();
-                                    Hide();
-                                }
-                                else if (reader["UserType"].ToString() == "Manager")
-                                {
-                                    //GeneralLedger generalLedger = new GeneralLedger();
-                                    //generalLedger.Show();
-                                    //Hide();
-                                }
-                                else if (reader["UserType"].ToString() == "Secretary")
-                                {
-                                    //GeneralLedger generalLedger = new GeneralLedger();
-                                    //generalLedger.Show();
-                                    //Hide();
-                                }
-                                else if (reader["UserType"].ToString() == "Cashier")
-                                {
-                                    POS pos = new POS();
-                                    pos.Show();
-                                    Hide();
-                                }
-                            }
-                            else
-                            {
-                                MessageBox.Show("The entered credentials are invalid.", "Invalid Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
-                        }
-                    }
+                    SalesAnalysis Sales = new SalesAnalysis();
+                    Sales.Show();
+                    Hide();
+                }
+                if (UsernameTextbox.Text == "owner")
+                {
+                    GeneralLedger gen = new GeneralLedger();
+                    gen.Show();
+                    Hide();
+                }
+                if (UsernameTextbox.Text == "cashier")
+                {
+                    POS POS = new POS();
+                    POS.Show();
+                    Hide();
+                }
+                if (UsernameTextbox.Text == "secretary")
+                {
+                    Secretary_dashboard sec = new Secretary_dashboard();
+                    sec.Show();
+                    Hide();
                 }
             }
+            //else
+            //{
+            //    string query = "SELECT * FROM UserAccounts Where Username = @Username AND Password = @Password";
+
+            //    using (SqlConnection connection = new SqlConnection(connectionString))
+            //    {
+            //        using (SqlCommand command = new SqlCommand(query, connection))
+            //        {
+            //            connection.Open();
+            //            command.Parameters.AddWithValue("@Username", UsernameTextbox.Text);
+            //            command.Parameters.AddWithValue("@Password", PasswordTextbox.Text);
+            //            using (SqlDataReader reader = command.ExecuteReader())
+            //            {
+            //                if (reader.HasRows)
+            //                {
+            //                    reader.Read();
+            //                    if (reader["UserType"].ToString() == "Owner")
+            //                    {
+            //                        GeneralLedger generalLedger = new GeneralLedger();
+            //                        generalLedger.Show();
+            //                        Hide();
+            //                    }
+            //                    else if (reader["UserType"].ToString() == "Manager")
+            //                    {
+            //                        //GeneralLedger generalLedger = new GeneralLedger();
+            //                        //generalLedger.Show();
+            //                        //Hide();
+            //                    }
+            //                    else if (reader["UserType"].ToString() == "Secretary")
+            //                    {
+            //                        //GeneralLedger generalLedger = new GeneralLedger();
+            //                        //generalLedger.Show();
+            //                        //Hide();
+            //                    }
+            //                    else if (reader["UserType"].ToString() == "Cashier")
+            //                    {
+            //                        POS pos = new POS();
+            //                        pos.Show();
+            //                        Hide();
+            //                    }
+            //                }
+            //                else
+            //                {
+            //                    MessageBox.Show("The entered credentials are invalid.", "Invalid Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var pp = new Secretary_Timesheet();
+            pp.Show();
         }
     }
 }
