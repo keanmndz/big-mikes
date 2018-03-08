@@ -85,6 +85,7 @@
     <Compile Include="CashFlow.designer.cs">
       <DependentUpon>CashFlow.cs</DependentUpon>
     </Compile>
+    <Compile Include="DeductionClass.cs" />
     <Compile Include="Employee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +161,7 @@
     <Compile Include="Purchasing.Designer.cs">
       <DependentUpon>Purchasing.cs</DependentUpon>
     </Compile>
+    <Compile Include="RemittanceClass.cs" />
     <Compile Include="SalesAnalysis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +192,12 @@
     <Compile Include="Secretary_dashboard.designer.cs">
       <DependentUpon>Secretary_dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_DeductionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_DeductionReport.Designer.cs">
+      <DependentUpon>Secretary_DeductionReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Secretary_Disburse.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,17 +216,35 @@
     <Compile Include="Secretary_NewEmployee.designer.cs">
       <DependentUpon>Secretary_NewEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_PagibigReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_PagibigReport.Designer.cs">
+      <DependentUpon>Secretary_PagibigReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Secretary_Payroll.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Secretary_Payroll.designer.cs">
       <DependentUpon>Secretary_Payroll.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_PayrollReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_PayrollReport.Designer.cs">
+      <DependentUpon>Secretary_PayrollReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Secretary_Payslip.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Secretary_Payslip.designer.cs">
       <DependentUpon>Secretary_Payslip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_PhilHealthReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_PhilHealthReport.Designer.cs">
+      <DependentUpon>Secretary_PhilHealthReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Secretary_Remittance.cs">
       <SubType>Form</SubType>
@@ -250,6 +276,12 @@
     <Compile Include="Secretary_Request.Designer.cs">
       <DependentUpon>Secretary_Request.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_SSSReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_SSSReport.Designer.cs">
+      <DependentUpon>Secretary_SSSReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Secretary_Timesheet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,6 +305,7 @@
     <EmbeddedResource Include="CashFlow.resx">
       <DependentUpon>CashFlow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DeductionRegister.rdlc" />
     <EmbeddedResource Include="Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
@@ -297,8 +330,10 @@
     <EmbeddedResource Include="NoRecords.resx">
       <DependentUpon>NoRecords.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PagibigReport.rdlc" />
     <EmbeddedResource Include="PayrollReport.rdlc" />
     <EmbeddedResource Include="Payslip.rdlc" />
+    <EmbeddedResource Include="PhilHealthReport.rdlc" />
     <EmbeddedResource Include="POS.resx">
       <DependentUpon>POS.cs</DependentUpon>
     </EmbeddedResource>
@@ -321,6 +356,7 @@
     <EmbeddedResource Include="Purchasing.resx">
       <DependentUpon>Purchasing.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RemittanceSSSClass.rdlc" />
     <EmbeddedResource Include="SalesAnalysis.resx">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </EmbeddedResource>
@@ -336,6 +372,9 @@
     <EmbeddedResource Include="Secretary_dashboard.resx">
       <DependentUpon>Secretary_dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_DeductionReport.resx">
+      <DependentUpon>Secretary_DeductionReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Disburse.resx">
       <DependentUpon>Secretary_Disburse.cs</DependentUpon>
     </EmbeddedResource>
@@ -345,11 +384,20 @@
     <EmbeddedResource Include="Secretary_NewEmployee.resx">
       <DependentUpon>Secretary_NewEmployee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_PagibigReport.resx">
+      <DependentUpon>Secretary_PagibigReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Payroll.resx">
       <DependentUpon>Secretary_Payroll.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_PayrollReport.resx">
+      <DependentUpon>Secretary_PayrollReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Payslip.resx">
       <DependentUpon>Secretary_Payslip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_PhilHealthReport.resx">
+      <DependentUpon>Secretary_PhilHealthReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Remittance.resx">
       <DependentUpon>Secretary_Remittance.cs</DependentUpon>
@@ -366,6 +414,9 @@
     <EmbeddedResource Include="Secretary_Request.resx">
       <DependentUpon>Secretary_Request.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_SSSReport.resx">
+      <DependentUpon>Secretary_SSSReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Timesheet.resx">
       <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
     </EmbeddedResource>
@@ -374,8 +425,10 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\AttendanceClass.datasource" />
+    <None Include="Properties\DataSources\DeductionClass.datasource" />
     <None Include="Properties\DataSources\Employee_Attendance.datasource" />
     <None Include="Properties\DataSources\PayrollClass.datasource" />
+    <None Include="Properties\DataSources\RemittanceClass.datasource" />
     <None Include="Properties\DataSources\Secretary_Payroll.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

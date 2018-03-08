@@ -54,5 +54,11 @@ namespace Big_Mikes_Accounting_Information_System
             this.Hide();
             page.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var page = new Secretary_PhilHealthReport();
+            page.Show();
+        }
     }
 }

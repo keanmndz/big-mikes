@@ -75,7 +75,6 @@ namespace Big_Mikes_Accounting_Information_System
         private void button7_Click(object sender, EventArgs e)
         {
             var page = new Secretary_Report();
-            this.Hide();
             page.Show();
         }
     }
