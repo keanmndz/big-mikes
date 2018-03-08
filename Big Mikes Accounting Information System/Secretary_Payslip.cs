@@ -30,6 +30,7 @@ namespace Big_Mikes_Accounting_Information_System
         private void button1_Click(object sender, EventArgs e)
         {
             var Page = new Secretary_dashboard();
+            this.Hide();
             Page.Show();
 
         }
@@ -38,6 +39,7 @@ namespace Big_Mikes_Accounting_Information_System
         {
 
             var Page = new Secretary_Emplist();
+            this.Hide();
             Page.Show();
         }
 
@@ -45,18 +47,34 @@ namespace Big_Mikes_Accounting_Information_System
         {
 
             var Page = new Secretary_Attendance();
+            this.Hide();
             Page.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             var Page = new Secretary_Payroll();
+            this.Hide();
             Page.Show();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             var page = new Login();
+            this.Hide();
+            page.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            var page = new Secretary_Request();
+            this.Hide();
+            page.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var page = new Secretary_Report();
             this.Hide();
             page.Show();
         }

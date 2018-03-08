@@ -32,6 +32,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -59,11 +78,42 @@
     <Compile Include="AddPO.designer.cs">
       <DependentUpon>AddPO.cs</DependentUpon>
     </Compile>
+    <Compile Include="AttendanceClass.cs" />
     <Compile Include="CashFlow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CashFlow.designer.cs">
       <DependentUpon>CashFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Apply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Apply.Designer.cs">
+      <DependentUpon>Employee_Apply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Attendance.Designer.cs">
+      <DependentUpon>Employee_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Profile.Designer.cs">
+      <DependentUpon>Employee_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_Request.Designer.cs">
+      <DependentUpon>Employee_Request.cs</DependentUpon>
     </Compile>
     <Compile Include="GeneralLedger.cs">
       <SubType>Form</SubType>
@@ -83,6 +133,7 @@
     <Compile Include="NoRecords.designer.cs">
       <DependentUpon>NoRecords.cs</DependentUpon>
     </Compile>
+    <Compile Include="PayrollClass.cs" />
     <Compile Include="POS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,11 +166,23 @@
     <Compile Include="SalesAnalysis.Designer.cs">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_AddorDeduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_AddorDeduct.Designer.cs">
+      <DependentUpon>Secretary_AddorDeduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Secretary_Attendance.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Secretary_Attendance.designer.cs">
       <DependentUpon>Secretary_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_AttendanceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_AttendanceReport.Designer.cs">
+      <DependentUpon>Secretary_AttendanceReport.cs</DependentUpon>
     </Compile>
     <Compile Include="Secretary_dashboard.cs">
       <SubType>Form</SubType>
@@ -175,12 +238,25 @@
     <Compile Include="Secretary_Remittance_Philhealth.designer.cs">
       <DependentUpon>Secretary_Remittance_Philhealth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Secretary_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Report.Designer.cs">
+      <DependentUpon>Secretary_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secretary_Request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secretary_Request.Designer.cs">
+      <DependentUpon>Secretary_Request.cs</DependentUpon>
+    </Compile>
     <Compile Include="Secretary_Timesheet.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Secretary_Timesheet.designer.cs">
       <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,8 +269,24 @@
     <EmbeddedResource Include="AddPO.resx">
       <DependentUpon>AddPO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceReport.rdlc" />
     <EmbeddedResource Include="CashFlow.resx">
       <DependentUpon>CashFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Apply.resx">
+      <DependentUpon>Employee_Apply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Attendance.resx">
+      <DependentUpon>Employee_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Profile.resx">
+      <DependentUpon>Employee_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_Request.resx">
+      <DependentUpon>Employee_Request.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeneralLedger.resx">
       <DependentUpon>GeneralLedger.cs</DependentUpon>
@@ -205,6 +297,8 @@
     <EmbeddedResource Include="NoRecords.resx">
       <DependentUpon>NoRecords.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PayrollReport.rdlc" />
+    <EmbeddedResource Include="Payslip.rdlc" />
     <EmbeddedResource Include="POS.resx">
       <DependentUpon>POS.cs</DependentUpon>
     </EmbeddedResource>
@@ -230,8 +324,14 @@
     <EmbeddedResource Include="SalesAnalysis.resx">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_AddorDeduct.resx">
+      <DependentUpon>Secretary_AddorDeduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Attendance.resx">
       <DependentUpon>Secretary_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_AttendanceReport.resx">
+      <DependentUpon>Secretary_AttendanceReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Secretary_dashboard.resx">
       <DependentUpon>Secretary_dashboard.cs</DependentUpon>
@@ -260,12 +360,23 @@
     <EmbeddedResource Include="Secretary_Remittance_Philhealth.resx">
       <DependentUpon>Secretary_Remittance_Philhealth.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Report.resx">
+      <DependentUpon>Secretary_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secretary_Request.resx">
+      <DependentUpon>Secretary_Request.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Timesheet.resx">
       <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\AttendanceClass.datasource" />
+    <None Include="Properties\DataSources\Employee_Attendance.datasource" />
+    <None Include="Properties\DataSources\PayrollClass.datasource" />
+    <None Include="Properties\DataSources\Secretary_Payroll.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -295,6 +406,19 @@
     <None Include="resources\images\login-icon-white.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="printer-6.png" />
     <Content Include="resources\uyttxprhsqycyximpzjb.png" />
   </ItemGroup>

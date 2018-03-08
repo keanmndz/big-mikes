@@ -53,6 +53,12 @@ namespace Big_Mikes_Accounting_Information_System
                     sec.Show();
                     Hide();
                 }
+                if (UsernameTextbox.Text == "employee")
+                {
+                    Employee_Profile sec=new Employee_Profile();
+                    sec.Show();
+                    Hide();
+                }
             }
             //else
             //{

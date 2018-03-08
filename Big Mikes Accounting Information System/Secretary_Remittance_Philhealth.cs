@@ -20,6 +20,7 @@ namespace Big_Mikes_Accounting_Information_System
         private void button1_Click(object sender, EventArgs e)
         {
             var Page = new Secretary_Payroll();
+            this.Hide();
             Page.Show();
         }
 
@@ -27,6 +28,7 @@ namespace Big_Mikes_Accounting_Information_System
         {
 
             var Page = new Secretary_Remittance();
+            this.Hide();
             Page.Show();
         }
 
@@ -34,6 +36,7 @@ namespace Big_Mikes_Accounting_Information_System
         {
 
             var Page = new Secretary_Remittance_Pagibig();
+            this.Hide();
             Page.Show();
         }
 
@@ -41,6 +44,7 @@ namespace Big_Mikes_Accounting_Information_System
         {
 
             var Page = new Secretary_Remittance_Philhealth();
+            this.Hide();
             Page.Show();
         }
 

@@ -44,7 +44,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.EmpID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhilhealthNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HDMFNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Birthdate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -246,7 +246,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.EmpID,
-            this.PhilhealthNo,
+            this.HDMFNo,
             this.Birthdate,
             this.LastName,
             this.FirstName,
@@ -265,11 +265,11 @@
             this.EmpID.HeaderText = "Emp ID";
             this.EmpID.Name = "EmpID";
             // 
-            // PhilhealthNo
+            // HDMFNo
             // 
-            this.PhilhealthNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.PhilhealthNo.HeaderText = "PhilHealth No";
-            this.PhilhealthNo.Name = "PhilhealthNo";
+            this.HDMFNo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.HDMFNo.HeaderText = "HDMF No";
+            this.HDMFNo.Name = "HDMFNo";
             // 
             // Birthdate
             // 
@@ -364,8 +364,9 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridViewTextBoxColumn EmpID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhilhealthNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HDMFNo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Birthdate;
         private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
         private System.Windows.Forms.DataGridViewTextBoxColumn FirstName;
@@ -373,6 +374,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Employee;
         private System.Windows.Forms.DataGridViewTextBoxColumn Employer;
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
-        private System.Windows.Forms.Label label4;
     }
 }

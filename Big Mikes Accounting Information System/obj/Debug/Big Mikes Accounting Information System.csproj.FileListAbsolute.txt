@@ -1,157 +1,134 @@
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.CoreCompileInputs.cache
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\PJ Corona\Desktop\Big Mikes Accounting Information System\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.CoreCompileInputs.cache
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\Users\bryan\Documents\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.CoreCompileInputs.cache
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\Users\Mariñez\Desktop\INTELE4\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\bin\Debug\MetroFramework.dll
-C:\Users\Jed Matthew\Desktop\Academics\4th Year - Last Sem\copy-big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
-<<<<<<< HEAD
-E:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-E:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-E:\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-E:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
-=======
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
->>>>>>> 438c74958b703af197f155fb067e3f015e7d210d
-C:\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.CoreCompileInputs.cache
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\Users\PJ Corona\Desktop\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_dashboard.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Attendance.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Disburse.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Emplist.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_NewEmployee.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payroll.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payslip.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Pagibig.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Philhealth.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Timesheet.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
-C:\backs\big-mikes3\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddItem.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddPO.resources
-C:\backs\big-mikes3\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.print.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\EnvDTE.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\stdole.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\EnvDTE80.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\VSLangProj.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\VSLangProj80.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\VSLangProj2.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.11.0.xml
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.14.0.xml
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Immutable.12.0.xml
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.Big Mikes Accounting Information System.exe.config
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddItem.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddPO.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Apply.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Attendance.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Profile.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Request.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.print.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_AddorDeduct.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Attendance.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_AttendanceReport.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_dashboard.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Disburse.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Emplist.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_NewEmployee.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payroll.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payslip.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Pagibig.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Philhealth.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Report.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Request.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Timesheet.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.CoreCompileInputs.cache
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
+C:\Users\USER\Downloads\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb

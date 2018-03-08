@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Secretary_NewEmployee));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -42,11 +43,18 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label23 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -55,7 +63,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
@@ -78,6 +85,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -98,6 +107,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(26)))), ((int)(((byte)(13)))));
+            this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -108,6 +118,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(171, 577);
             this.panel1.TabIndex = 6;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button10.Font = new System.Drawing.Font("Sitka Heading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(-2, 286);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(173, 58);
+            this.button10.TabIndex = 16;
+            this.button10.Text = "Requests / Applications";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button6
             // 
@@ -249,11 +274,20 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel2.Controls.Add(this.label25);
+            this.panel2.Controls.Add(this.dateTimePicker3);
             this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.dateTimePicker2);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.label16);
+            this.panel2.Controls.Add(this.comboBox4);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.richTextBox1);
+            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.textBox5);
             this.panel2.Controls.Add(this.textBox7);
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.comboBox4);
             this.panel2.Controls.Add(this.label23);
             this.panel2.Controls.Add(this.radioButton2);
             this.panel2.Controls.Add(this.radioButton1);
@@ -262,7 +296,6 @@
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.textBox11);
             this.panel2.Controls.Add(this.textBox10);
-            this.panel2.Controls.Add(this.textBox9);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.button8);
             this.panel2.Controls.Add(this.button7);
@@ -292,20 +325,101 @@
             this.panel2.TabIndex = 15;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // pictureBox2
+            // dateTimePicker3
             // 
-            this.pictureBox2.Image = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
-            this.pictureBox2.Location = new System.Drawing.Point(13, 115);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(167, 131);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 62;
-            this.pictureBox2.TabStop = false;
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker3.Location = new System.Drawing.Point(573, 390);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(143, 20);
+            this.dateTimePicker3.TabIndex = 71;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker2.Location = new System.Drawing.Point(572, 360);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(143, 20);
+            this.dateTimePicker2.TabIndex = 70;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label17.Location = new System.Drawing.Point(483, 388);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(79, 21);
+            this.label17.TabIndex = 69;
+            this.label17.Text = "Time End:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label16.Location = new System.Drawing.Point(480, 359);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(86, 21);
+            this.label16.TabIndex = 68;
+            this.label16.Text = "Time Start:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Executive Chef",
+            "Sous Chef",
+            "Line Chef",
+            "Kitchen Chef",
+            "Head Cook",
+            "Head Station Chef"});
+            this.comboBox4.Location = new System.Drawing.Point(573, 331);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(142, 21);
+            this.comboBox4.TabIndex = 67;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(515, 331);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 21);
+            this.label4.TabIndex = 66;
+            this.label4.Text = "Shift:";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(191, 331);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(274, 36);
+            this.richTextBox1.TabIndex = 65;
+            this.richTextBox1.Text = "";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(688, 254);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(50, 23);
+            this.button9.TabIndex = 64;
+            this.button9.Text = "Add";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(573, 255);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(111, 20);
+            this.textBox5.TabIndex = 63;
             // 
             // textBox7
             // 
             this.textBox7.Enabled = false;
-            this.textBox7.Location = new System.Drawing.Point(587, 118);
+            this.textBox7.Location = new System.Drawing.Point(573, 118);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(142, 20);
             this.textBox7.TabIndex = 61;
@@ -317,7 +431,7 @@
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(456, 113);
+            this.label24.Location = new System.Drawing.Point(447, 113);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(116, 21);
             this.label24.TabIndex = 60;
@@ -326,30 +440,11 @@
             // textBox6
             // 
             this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(300, 115);
+            this.textBox6.Location = new System.Drawing.Point(292, 115);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(144, 20);
             this.textBox6.TabIndex = 59;
             this.textBox6.Text = "1";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "1 years",
-            "2 years",
-            "3 years",
-            "4 years",
-            "5 years",
-            "6 years",
-            "7 years",
-            "8 years",
-            "9 years",
-            "10 years"});
-            this.comboBox4.Location = new System.Drawing.Point(587, 258);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(142, 21);
-            this.comboBox4.TabIndex = 58;
             // 
             // label23
             // 
@@ -357,7 +452,7 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label23.Location = new System.Drawing.Point(453, 252);
+            this.label23.Location = new System.Drawing.Point(452, 252);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(113, 21);
             this.label23.TabIndex = 57;
@@ -396,7 +491,7 @@
             "Kitchen Chef",
             "Head Cook",
             "Head Station Chef"});
-            this.comboBox3.Location = new System.Drawing.Point(587, 221);
+            this.comboBox3.Location = new System.Drawing.Point(573, 221);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(142, 21);
             this.comboBox3.TabIndex = 54;
@@ -404,11 +499,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Administration",
-            "Front-of-the-House",
-            "Back-of-the-House"});
-            this.comboBox2.Location = new System.Drawing.Point(587, 183);
+            this.comboBox2.Location = new System.Drawing.Point(573, 183);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(142, 21);
             this.comboBox2.TabIndex = 53;
@@ -421,31 +512,24 @@
             "Married",
             "Widowed",
             "Separated"});
-            this.comboBox1.Location = new System.Drawing.Point(587, 148);
+            this.comboBox1.Location = new System.Drawing.Point(573, 148);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(142, 21);
             this.comboBox1.TabIndex = 52;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(332, 409);
+            this.textBox11.Location = new System.Drawing.Point(191, 400);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(348, 20);
+            this.textBox11.Size = new System.Drawing.Size(274, 20);
             this.textBox11.TabIndex = 51;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(332, 373);
+            this.textBox10.Location = new System.Drawing.Point(190, 373);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(348, 20);
+            this.textBox10.Size = new System.Drawing.Size(275, 20);
             this.textBox10.TabIndex = 50;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(334, 340);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(346, 20);
-            this.textBox9.TabIndex = 49;
             // 
             // dateTimePicker1
             // 
@@ -509,7 +593,7 @@
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(506, 219);
+            this.label20.Location = new System.Drawing.Point(497, 219);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(71, 21);
             this.label20.TabIndex = 34;
@@ -521,7 +605,7 @@
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label21.Location = new System.Drawing.Point(481, 180);
+            this.label21.Location = new System.Drawing.Point(472, 180);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(94, 21);
             this.label21.TabIndex = 33;
@@ -533,7 +617,7 @@
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label22.Location = new System.Drawing.Point(483, 145);
+            this.label22.Location = new System.Drawing.Point(474, 145);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(92, 21);
             this.label22.TabIndex = 32;
@@ -541,7 +625,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(301, 258);
+            this.textBox1.Location = new System.Drawing.Point(293, 258);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(144, 20);
             this.textBox1.TabIndex = 31;
@@ -564,7 +648,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(206, 403);
+            this.label15.Location = new System.Drawing.Point(60, 397);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(110, 21);
             this.label15.TabIndex = 28;
@@ -576,7 +660,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(227, 370);
+            this.label14.Location = new System.Drawing.Point(81, 370);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(88, 21);
             this.label14.TabIndex = 27;
@@ -588,7 +672,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Sitka Heading", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(254, 337);
+            this.label13.Location = new System.Drawing.Point(101, 328);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(68, 21);
             this.label13.TabIndex = 26;
@@ -642,21 +726,21 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(301, 149);
+            this.textBox2.Location = new System.Drawing.Point(293, 149);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(144, 20);
             this.textBox2.TabIndex = 21;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(301, 222);
+            this.textBox4.Location = new System.Drawing.Point(293, 222);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(144, 20);
             this.textBox4.TabIndex = 20;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(301, 184);
+            this.textBox3.Location = new System.Drawing.Point(293, 184);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(144, 20);
             this.textBox3.TabIndex = 19;
@@ -684,6 +768,28 @@
             this.label7.Size = new System.Drawing.Size(103, 21);
             this.label7.TabIndex = 15;
             this.label7.Text = "Middle Name:";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Sitka Heading", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label25.Location = new System.Drawing.Point(55, 226);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(97, 19);
+            this.label25.TabIndex = 17;
+            this.label25.Text = "Employee Image";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.LightGray;
+            this.pictureBox2.Location = new System.Drawing.Point(22, 113);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(158, 133);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
             // 
             // Secretary_NewEmployee
             // 
@@ -745,7 +851,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
@@ -757,10 +862,20 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

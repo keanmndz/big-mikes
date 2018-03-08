@@ -30,6 +30,7 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -65,7 +66,6 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -100,6 +100,7 @@
             this.label64 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label31 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label68 = new System.Windows.Forms.Label();
             this.label67 = new System.Windows.Forms.Label();
@@ -125,6 +126,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(26)))), ((int)(((byte)(13)))));
+            this.panel1.Controls.Add(this.button10);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -135,6 +137,21 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(171, 577);
             this.panel1.TabIndex = 10;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button10.Font = new System.Drawing.Font("Sitka Heading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(-3, 285);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(173, 58);
+            this.button10.TabIndex = 8;
+            this.button10.Text = "Requests / Applications";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button6
             // 
@@ -361,18 +378,20 @@
             this.button7.TabIndex = 25;
             this.button7.Text = "Print Payrolslip";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(14, 161);
+            this.label14.Location = new System.Drawing.Point(12, 161);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(643, 16);
+            this.label14.Size = new System.Drawing.Size(848, 16);
             this.label14.TabIndex = 26;
             this.label14.Text = "_________________________________________________________________________________" +
-    "______________________________________________";
+    "________________________________________________________________________________" +
+    "_______";
             // 
             // label15
             // 
@@ -556,17 +575,6 @@
             this.label30.TabIndex = 49;
             this.label30.Text = "00.00";
             // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Sitka Heading", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label31.Location = new System.Drawing.Point(737, 342);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(61, 28);
-            this.label31.TabIndex = 50;
-            this.label31.Text = "00.00";
-            // 
             // label32
             // 
             this.label32.AutoSize = true;
@@ -690,21 +698,21 @@
             this.label42.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label42.Location = new System.Drawing.Point(483, 342);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(142, 28);
+            this.label42.Size = new System.Drawing.Size(140, 28);
             this.label42.TabIndex = 52;
-            this.label42.Text = "PhilHEalth Cont.";
+            this.label42.Text = "PhilHealth Cont.";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
             this.label43.BackColor = System.Drawing.Color.Transparent;
             this.label43.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label43.Location = new System.Drawing.Point(19, 366);
+            this.label43.Location = new System.Drawing.Point(57, 366);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(643, 16);
+            this.label43.Size = new System.Drawing.Size(753, 16);
             this.label43.TabIndex = 54;
             this.label43.Text = "_________________________________________________________________________________" +
-    "______________________________________________";
+    "____________________________________________________________________";
             // 
             // label44
             // 
@@ -850,9 +858,9 @@
             this.label56.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label56.Location = new System.Drawing.Point(79, 493);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(105, 28);
+            this.label56.Size = new System.Drawing.Size(137, 28);
             this.label56.TabIndex = 60;
-            this.label56.Text = "HDMF Loan";
+            this.label56.Text = "PhilHealth Loan";
             // 
             // label57
             // 
@@ -894,7 +902,7 @@
             this.label61.AutoSize = true;
             this.label61.BackColor = System.Drawing.Color.Transparent;
             this.label61.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label61.Location = new System.Drawing.Point(456, 463);
+            this.label61.Location = new System.Drawing.Point(492, 463);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(288, 16);
             this.label61.TabIndex = 72;
@@ -943,6 +951,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.panel2.Controls.Add(this.label31);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.button7);
             this.panel2.Controls.Add(this.label65);
@@ -1001,7 +1010,6 @@
             this.panel2.Controls.Add(this.label40);
             this.panel2.Controls.Add(this.label30);
             this.panel2.Controls.Add(this.label39);
-            this.panel2.Controls.Add(this.label31);
             this.panel2.Controls.Add(this.label38);
             this.panel2.Controls.Add(this.label32);
             this.panel2.Controls.Add(this.label37);
@@ -1016,12 +1024,24 @@
             this.panel2.TabIndex = 77;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Sitka Heading", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label31.Location = new System.Drawing.Point(23, 149);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(97, 19);
+            this.label31.TabIndex = 78;
+            this.label31.Text = "Employee Image";
+            // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Big_Mikes_Accounting_Information_System.Properties.Resources.uyttxprhsqycyximpzjb;
-            this.pictureBox2.Location = new System.Drawing.Point(9, 64);
+            this.pictureBox2.BackColor = System.Drawing.Color.LightGray;
+            this.pictureBox2.Location = new System.Drawing.Point(7, 57);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(124, 108);
+            this.pictureBox2.Size = new System.Drawing.Size(127, 112);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 77;
             this.pictureBox2.TabStop = false;
@@ -1134,7 +1154,6 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
@@ -1173,6 +1192,8 @@
         private System.Windows.Forms.Label label67;
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
