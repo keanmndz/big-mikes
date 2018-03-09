@@ -24,6 +24,7 @@ namespace Big_Mikes_Accounting_Information_System
 
         private void button2_Click(object sender, EventArgs e)
         {
+            label1.Visible = false;
             button1.Visible = false;
             button2.Visible = false;
             label2.Visible=true;

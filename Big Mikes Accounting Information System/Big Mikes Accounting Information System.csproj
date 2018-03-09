@@ -66,6 +66,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCashFlow.cs" />
+    <Compile Include="AddCashFlow.Designer.cs" />
     <Compile Include="AddCategories.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +166,8 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="norecord.cs" />
+    <Compile Include="norecord.Designer.cs" />
     <Compile Include="NoRecords.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -331,12 +335,15 @@
     <Compile Include="Sub-Categories.Designer.cs">
       <DependentUpon>Sub-Categories.cs</DependentUpon>
     </Compile>
+    <Compile Include="success.cs" />
+    <Compile Include="success.Designer.cs" />
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Template.Designer.cs">
       <DependentUpon>Template.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCashFlow.resx" />
     <EmbeddedResource Include="AddCategories.resx">
       <DependentUpon>AddCategories.cs</DependentUpon>
     </EmbeddedResource>
@@ -387,6 +394,7 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="norecord.resx" />
     <EmbeddedResource Include="NoRecords.resx">
       <DependentUpon>NoRecords.cs</DependentUpon>
     </EmbeddedResource>
@@ -483,6 +491,7 @@
     <EmbeddedResource Include="Sub-Categories.resx">
       <DependentUpon>Sub-Categories.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="success.resx" />
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>
     </EmbeddedResource>

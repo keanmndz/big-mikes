@@ -492,3 +492,6 @@ C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Informati
 C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
 C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
 C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddCashFlow.resources
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.norecord.resources
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.success.resources

@@ -265,6 +265,7 @@ namespace Big_Mikes_Accounting_Information_System
                     dataGridView2.Visible = true;
                     dataGridView1.Visible = false;
                 }
+               
                 if (month != "  None" && year != "   Select Year" && month != "   Select Year")
                 {
                     dataGridView1.Visible = true;
@@ -294,6 +295,56 @@ namespace Big_Mikes_Accounting_Information_System
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var Page = new print();
+            Page.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            var Page = new AddCashFlow();
+            Page.Show();
+            this.Close();
+        }
+
+        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            var Page = new print();
+            Page.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            var Page = new print();
+            Page.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
         {
             var Page = new print();
             Page.Show();
