@@ -39,18 +39,22 @@ namespace Big_Mikes_Accounting_Information_System
 
             DataGridViewRow row2 = new DataGridViewRow();
             row2.CreateCells(COA);
-            row2.Cells[0].Value = "123456";
-            row2.Cells[1].Value = "Sales";
-            row2.Cells[2].Value = "Credit";
-            row2.Cells[3].Value = "Accounts From Sales Departments";
+            row2.Cells[0].Value = "13562-0001";
+            row2.Cells[1].Value = "order";
+            row2.Cells[2].Value = "sales";
+            row2.Cells[3].Value = "2000.00";
+            row2.Cells[4].Value = "0.00";
+            row2.Cells[5].Value = "Food & beverages";
             COA.Rows.Add(row2);
 
             DataGridViewRow row3 = new DataGridViewRow();
             row3.CreateCells(COA);
-            row3.Cells[0].Value = "123457";
-            row3.Cells[1].Value = "Purchasin";
-            row3.Cells[2].Value = "Debit";
-            row3.Cells[3].Value = "Purchase Requesitions from Purchasing Department";
+            row3.Cells[0].Value = "12821-0001";
+            row3.Cells[1].Value = "marinated beef";
+            row3.Cells[2].Value = "purchasing";
+            row3.Cells[3].Value = "0.00";
+            row3.Cells[4].Value = "6000.00";
+            row3.Cells[5].Value = "ingridients";
             COA.Rows.Add(row3);
 
         }
@@ -92,7 +96,7 @@ namespace Big_Mikes_Accounting_Information_System
         {
             var Page = new Login();
             Page.Show();
-            this.Close();
+            this.Hide();
 
         }
 
@@ -235,6 +239,12 @@ namespace Big_Mikes_Accounting_Information_System
 
         private void label7_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
 
         }
     }

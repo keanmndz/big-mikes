@@ -382,3 +382,113 @@ C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes 
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe.config
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.exe
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Big Mikes Accounting Information System.pdb
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\EnvDTE.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\stdole.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddCategories.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddItem.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddPO.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddSubcategories.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CardPayment.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.CashFlow.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.EditCategory.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.EditSubCategory.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Apply.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Attendance.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Profile.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Employee_Request.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.GeneralLedger.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Login.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Menu.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.NoRecords.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.POS.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.print.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Properties.Resources.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Inventory.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Purchasing.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.SalesAnalysis.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_AddorDeduct.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Attendance.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_AttendanceReport.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_dashboard.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_DeductionReport.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Disburse.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Emplist.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_NewEmployee.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_PagibigReport.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payroll.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_PayrollReport.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Payslip.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_PhilHealthReport.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Pagibig.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Remittance_Philhealth.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Report.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Request.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_SSSReport.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Secretary_Timesheet.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Sub_Categories.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.Template.resources
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csproj.GenerateResource.Cache
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.exe
+C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.pdb
