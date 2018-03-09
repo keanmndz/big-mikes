@@ -66,6 +66,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategories.Designer.cs">
+      <DependentUpon>AddCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddItem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,7 +84,19 @@
     <Compile Include="AddPO.designer.cs">
       <DependentUpon>AddPO.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddSubcategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSubcategories.Designer.cs">
+      <DependentUpon>AddSubcategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceClass.cs" />
+    <Compile Include="CardPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardPayment.Designer.cs">
+      <DependentUpon>CardPayment.cs</DependentUpon>
+    </Compile>
     <Compile Include="CashFlow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +104,18 @@
       <DependentUpon>CashFlow.cs</DependentUpon>
     </Compile>
     <Compile Include="DeductionClass.cs" />
+    <Compile Include="EditCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditCategory.Designer.cs">
+      <DependentUpon>EditCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditSubCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditSubCategory.Designer.cs">
+      <DependentUpon>EditSubCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +157,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="NoRecords.cs">
       <SubType>Form</SubType>
@@ -289,23 +325,44 @@
       <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Sub-Categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub-Categories.Designer.cs">
+      <DependentUpon>Sub-Categories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Template.Designer.cs">
       <DependentUpon>Template.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCategories.resx">
+      <DependentUpon>AddCategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddItem.resx">
       <DependentUpon>AddItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddPO.resx">
       <DependentUpon>AddPO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddSubcategories.resx">
+      <DependentUpon>AddSubcategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AttendanceReport.rdlc" />
+    <EmbeddedResource Include="CardPayment.resx">
+      <DependentUpon>CardPayment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CashFlow.resx">
       <DependentUpon>CashFlow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeductionRegister.rdlc" />
+    <EmbeddedResource Include="EditCategory.resx">
+      <DependentUpon>EditCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditSubCategory.resx">
+      <DependentUpon>EditSubCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
@@ -326,6 +383,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NoRecords.resx">
       <DependentUpon>NoRecords.cs</DependentUpon>
@@ -419,6 +479,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Secretary_Timesheet.resx">
       <DependentUpon>Secretary_Timesheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub-Categories.resx">
+      <DependentUpon>Sub-Categories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.cs</DependentUpon>

@@ -43,6 +43,7 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button20 = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.btnDone = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -68,14 +69,16 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -293,6 +296,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.button20);
             this.panel3.Controls.Add(this.dateTimePicker2);
             this.panel3.Controls.Add(this.btnDone);
             this.panel3.Controls.Add(this.label7);
@@ -315,11 +319,29 @@
             this.panel3.Size = new System.Drawing.Size(344, 741);
             this.panel3.TabIndex = 5;
             // 
+            // button20
+            // 
+            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.Location = new System.Drawing.Point(3, 692);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(162, 43);
+            this.button20.TabIndex = 60;
+            this.button20.Text = "Card";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(8, 3);
+            this.dateTimePicker2.Location = new System.Drawing.Point(3, 3);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(324, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(338, 20);
             this.dateTimePicker2.TabIndex = 59;
             // 
             // btnDone
@@ -332,11 +354,11 @@
             this.btnDone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDone.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDone.ForeColor = System.Drawing.Color.White;
-            this.btnDone.Location = new System.Drawing.Point(8, 686);
+            this.btnDone.Location = new System.Drawing.Point(171, 692);
             this.btnDone.Name = "btnDone";
-            this.btnDone.Size = new System.Drawing.Size(324, 43);
+            this.btnDone.Size = new System.Drawing.Size(170, 43);
             this.btnDone.TabIndex = 37;
-            this.btnDone.Text = "Done";
+            this.btnDone.Text = "Cash";
             this.btnDone.UseVisualStyleBackColor = false;
             // 
             // label7
@@ -346,7 +368,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(14, 532);
+            this.label7.Location = new System.Drawing.Point(14, 533);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 17);
             this.label7.TabIndex = 36;
@@ -358,7 +380,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(233, 559);
+            this.radioButton2.Location = new System.Drawing.Point(233, 560);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(92, 22);
             this.radioButton2.TabIndex = 35;
@@ -372,7 +394,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
             this.radioButton1.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(233, 529);
+            this.radioButton1.Location = new System.Drawing.Point(233, 530);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(85, 22);
             this.radioButton1.TabIndex = 34;
@@ -387,7 +409,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Firebrick;
-            this.label10.Location = new System.Drawing.Point(82, 623);
+            this.label10.Location = new System.Drawing.Point(82, 624);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(17, 17);
             this.label10.TabIndex = 33;
@@ -400,7 +422,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Firebrick;
-            this.label9.Location = new System.Drawing.Point(105, 561);
+            this.label9.Location = new System.Drawing.Point(105, 562);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(17, 17);
             this.label9.TabIndex = 32;
@@ -413,7 +435,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Firebrick;
-            this.label6.Location = new System.Drawing.Point(95, 625);
+            this.label6.Location = new System.Drawing.Point(95, 626);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(17, 17);
             this.label6.TabIndex = 31;
@@ -426,7 +448,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(14, 623);
+            this.label5.Location = new System.Drawing.Point(14, 624);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(69, 17);
             this.label5.TabIndex = 30;
@@ -436,7 +458,7 @@
             // 
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(87, 590);
+            this.textBox1.Location = new System.Drawing.Point(87, 591);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(93, 20);
             this.textBox1.TabIndex = 29;
@@ -448,7 +470,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(14, 590);
+            this.label4.Location = new System.Drawing.Point(14, 591);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 17);
             this.label4.TabIndex = 28;
@@ -461,7 +483,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Firebrick;
-            this.label3.Location = new System.Drawing.Point(120, 562);
+            this.label3.Location = new System.Drawing.Point(120, 563);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(17, 17);
             this.label3.TabIndex = 27;
@@ -474,7 +496,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(14, 561);
+            this.label2.Location = new System.Drawing.Point(14, 562);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 17);
             this.label2.TabIndex = 26;
@@ -491,9 +513,9 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Lucida Fax", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(8, 470);
+            this.btnDelete.Location = new System.Drawing.Point(3, 473);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(324, 37);
+            this.btnDelete.Size = new System.Drawing.Size(338, 40);
             this.btnDelete.TabIndex = 19;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -511,12 +533,12 @@
             this.ProductNameColumn,
             this.QuantityColumn,
             this.TotalColumn});
-            this.ProductOrder.Location = new System.Drawing.Point(8, 85);
+            this.ProductOrder.Location = new System.Drawing.Point(3, 85);
             this.ProductOrder.Name = "ProductOrder";
             this.ProductOrder.ReadOnly = true;
             this.ProductOrder.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.ProductOrder.RowHeadersVisible = false;
-            this.ProductOrder.Size = new System.Drawing.Size(324, 379);
+            this.ProductOrder.Size = new System.Drawing.Size(338, 382);
             this.ProductOrder.TabIndex = 18;
             // 
             // ProductNameColumn
@@ -547,9 +569,9 @@
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Controls.Add(this.label1);
-            this.panel5.Location = new System.Drawing.Point(8, 27);
+            this.panel5.Location = new System.Drawing.Point(3, 27);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(324, 52);
+            this.panel5.Size = new System.Drawing.Size(338, 52);
             this.panel5.TabIndex = 3;
             // 
             // pictureBox1
@@ -626,115 +648,32 @@
             this.textBox2.Size = new System.Drawing.Size(221, 25);
             this.textBox2.TabIndex = 48;
             // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(23, 380);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(141, 137);
-            this.button11.TabIndex = 55;
-            this.button11.Text = "Sizzling Squid";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(782, 199);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(141, 137);
-            this.button16.TabIndex = 54;
-            this.button16.Text = "Sizzling Bulalo";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(596, 199);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(141, 137);
-            this.button15.TabIndex = 53;
-            this.button15.Text = "Sizzling Gambas";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(403, 199);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(141, 137);
-            this.button14.TabIndex = 52;
-            this.button14.Text = "Sizzling Bangus";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(208, 199);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(141, 137);
-            this.button13.TabIndex = 51;
-            this.button13.Text = "Sizzling Chicken Sisig";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button12.BackColor = System.Drawing.Color.White;
+            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
             this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.Black;
             this.button12.Location = new System.Drawing.Point(23, 199);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(141, 137);
+            this.button12.Size = new System.Drawing.Size(197, 195);
             this.button12.TabIndex = 50;
             this.button12.Text = "Sizzling Pork Sisig";
+            this.button12.UseCompatibleTextRendering = true;
             this.button12.UseVisualStyleBackColor = false;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Red;
-            this.panel6.Location = new System.Drawing.Point(23, 172);
+            this.panel6.Location = new System.Drawing.Point(15, 172);
             this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(980, 2);
+            this.panel6.Size = new System.Drawing.Size(990, 2);
             this.panel6.TabIndex = 56;
             // 
             // label8
@@ -750,19 +689,154 @@
             this.label8.TabIndex = 57;
             this.label8.Text = "Sizzlers";
             // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.White;
+            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.Black;
+            this.button11.Location = new System.Drawing.Point(279, 199);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(197, 195);
+            this.button11.TabIndex = 58;
+            this.button11.Text = "Sizzling Pork Sisig";
+            this.button11.UseCompatibleTextRendering = true;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.White;
+            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.Color.Black;
+            this.button13.Location = new System.Drawing.Point(540, 199);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(197, 195);
+            this.button13.TabIndex = 59;
+            this.button13.Text = "Sizzling Pork Sisig";
+            this.button13.UseCompatibleTextRendering = true;
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.White;
+            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.Color.Black;
+            this.button14.Location = new System.Drawing.Point(797, 199);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(197, 195);
+            this.button14.TabIndex = 60;
+            this.button14.Text = "Sizzling Pork Sisig";
+            this.button14.UseCompatibleTextRendering = true;
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.White;
+            this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
+            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button22.ForeColor = System.Drawing.Color.Black;
+            this.button22.Location = new System.Drawing.Point(23, 448);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(197, 195);
+            this.button22.TabIndex = 61;
+            this.button22.Text = "Sizzling Chicken";
+            this.button22.UseCompatibleTextRendering = true;
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.White;
+            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.Color.Black;
+            this.button15.Location = new System.Drawing.Point(279, 448);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(197, 195);
+            this.button15.TabIndex = 62;
+            this.button15.Text = "Sizzling Chicken";
+            this.button15.UseCompatibleTextRendering = true;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.White;
+            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.ForeColor = System.Drawing.Color.Black;
+            this.button16.Location = new System.Drawing.Point(540, 448);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(197, 195);
+            this.button16.TabIndex = 63;
+            this.button16.Text = "Sizzling Chicken";
+            this.button16.UseCompatibleTextRendering = true;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.White;
+            this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown;
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.ForeColor = System.Drawing.Color.Black;
+            this.button21.Location = new System.Drawing.Point(797, 448);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(197, 195);
+            this.button21.TabIndex = 64;
+            this.button21.Text = "Sizzling Chicken";
+            this.button21.UseCompatibleTextRendering = true;
+            this.button21.UseVisualStyleBackColor = false;
+            // 
             // POS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1362, 741);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button21);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
+            this.Controls.Add(this.button22);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.panel6);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.textBox2);
@@ -773,6 +847,7 @@
             this.Name = "POS";
             this.Text = "POS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.POS_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -826,15 +901,18 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button21;
     }
 }

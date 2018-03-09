@@ -23,5 +23,16 @@ namespace Big_Mikes_Accounting_Information_System
             obj1.Show();
             this.Hide();
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            CardPayment obj1 = new CardPayment();
+            obj1.Show();
+        }
+
+        private void POS_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

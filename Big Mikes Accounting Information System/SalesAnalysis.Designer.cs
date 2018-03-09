@@ -55,6 +55,7 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -65,6 +66,7 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -332,7 +334,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1121, 129);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1121, 166);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 62;
@@ -344,7 +346,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(1075, 126);
+            this.label6.Location = new System.Drawing.Point(1075, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 25);
             this.label6.TabIndex = 63;
@@ -356,7 +358,7 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(246, 234);
+            this.chart1.Location = new System.Drawing.Point(246, 211);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
@@ -373,7 +375,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(1048, 167);
+            this.label7.Location = new System.Drawing.Point(1048, 124);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(68, 25);
             this.label7.TabIndex = 66;
@@ -381,7 +383,7 @@
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(1121, 170);
+            this.dateTimePicker2.Location = new System.Drawing.Point(1121, 127);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 65;
@@ -401,6 +403,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button3);
@@ -412,6 +415,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(176, 597);
             this.panel1.TabIndex = 68;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Font = new System.Drawing.Font("Sitka Heading", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(2, 290);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(173, 36);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Menu";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -515,7 +534,7 @@
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(247, 615);
+            this.button16.Location = new System.Drawing.Point(247, 622);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(155, 38);
             this.button16.TabIndex = 69;
@@ -532,7 +551,7 @@
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(547, 615);
+            this.button19.Location = new System.Drawing.Point(547, 622);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(155, 38);
             this.button19.TabIndex = 70;
@@ -549,7 +568,7 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(851, 615);
+            this.button20.Location = new System.Drawing.Point(851, 622);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(155, 38);
             this.button20.TabIndex = 71;
@@ -566,12 +585,25 @@
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(1166, 615);
+            this.button21.Location = new System.Drawing.Point(1166, 622);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(155, 38);
             this.button21.TabIndex = 72;
             this.button21.Text = "Yearly Sales";
             this.button21.UseVisualStyleBackColor = false;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(1049, 577);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(123, 25);
+            this.label9.TabIndex = 73;
+            this.label9.Text = "Total Sales:";
             // 
             // SalesAnalysis
             // 
@@ -579,6 +611,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Big_Mikes_Accounting_Information_System.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
@@ -646,5 +679,7 @@
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button5;
     }
 }
