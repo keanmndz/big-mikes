@@ -58,12 +58,37 @@ namespace Big_Mikes_Accounting_Information_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            SalesAnalysis obj1 = new SalesAnalysis();
+            obj1.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Login obj1 = new Login();
+            obj1.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CashFlow obj1 = new CashFlow();
+            obj1.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Inventory obj1 = new Inventory();
+            obj1.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Purchasing obj1 = new Purchasing();
+            obj1.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Menu obj1 = new Menu();
             obj1.ShowDialog();
         }
     }

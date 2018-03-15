@@ -66,7 +66,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCashFlow.cs" />
+    <Compile Include="AddCashFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AddCashFlow.Designer.cs" />
     <Compile Include="AddCategories.cs">
       <SubType>Form</SubType>
@@ -166,7 +168,9 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="norecord.cs" />
+    <Compile Include="norecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="norecord.Designer.cs" />
     <Compile Include="NoRecords.cs">
       <SubType>Form</SubType>
@@ -175,6 +179,14 @@
       <DependentUpon>NoRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="PayrollClass.cs" />
+    <Compile Include="PO-Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO-Dashboard.Designer.cs" />
+    <Compile Include="PO-Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PO-Inventory.Designer.cs" />
     <Compile Include="POS.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +214,10 @@
       <DependentUpon>Purchasing.cs</DependentUpon>
     </Compile>
     <Compile Include="RemittanceClass.cs" />
+    <Compile Include="RequestPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestPurchase.Designer.cs" />
     <Compile Include="SalesAnalysis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -335,7 +351,9 @@
     <Compile Include="Sub-Categories.Designer.cs">
       <DependentUpon>Sub-Categories.cs</DependentUpon>
     </Compile>
-    <Compile Include="success.cs" />
+    <Compile Include="success.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="success.Designer.cs" />
     <Compile Include="Template.cs">
       <SubType>Form</SubType>
@@ -402,6 +420,8 @@
     <EmbeddedResource Include="PayrollReport.rdlc" />
     <EmbeddedResource Include="Payslip.rdlc" />
     <EmbeddedResource Include="PhilHealthReport.rdlc" />
+    <EmbeddedResource Include="PO-Dashboard.resx" />
+    <EmbeddedResource Include="PO-Inventory.resx" />
     <EmbeddedResource Include="POS.resx">
       <DependentUpon>POS.cs</DependentUpon>
     </EmbeddedResource>
@@ -425,6 +445,7 @@
       <DependentUpon>Purchasing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RemittanceSSSClass.rdlc" />
+    <EmbeddedResource Include="RequestPurchase.resx" />
     <EmbeddedResource Include="SalesAnalysis.resx">
       <DependentUpon>SalesAnalysis.cs</DependentUpon>
     </EmbeddedResource>

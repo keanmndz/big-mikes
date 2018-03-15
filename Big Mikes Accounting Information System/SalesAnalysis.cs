@@ -24,6 +24,11 @@ namespace Big_Mikes_Accounting_Information_System
 
         private void SalesAnalysis_Load(object sender, EventArgs e)
         {
+            chart1.Series["Date"].Points.AddXY("March 9,2018", 10);
+            chart1.Series["Date"].Points.AddXY("March 10,2018", 8);
+            chart1.Series["Date"].Points.AddXY("March 11,2018", 15);
+            chart1.Series["Date"].Points.AddXY("March 12,2018", 5);
+            
 
         }
 

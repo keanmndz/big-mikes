@@ -333,7 +333,6 @@ C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes 
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddCategories.resources
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddItem.resources
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddPO.resources
@@ -495,3 +494,7 @@ C:\Users\Renz Mariñez\Desktop\BIGMIKES\big-mikes\Big Mikes Accounting Informati
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.AddCashFlow.resources
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.norecord.resources
 C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.success.resources
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.RequestPurchase.resources
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.PO-Dashboard.resources
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big_Mikes_Accounting_Information_System.PO-Inventory.resources
+C:\Users\HP ULTRABOOK\Documents\Visual Studio 2017\Projects\big-mikes\Big Mikes Accounting Information System\obj\Debug\Big Mikes Accounting Information System.csprojResolveAssemblyReference.cache

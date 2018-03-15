@@ -59,6 +59,12 @@ namespace Big_Mikes_Accounting_Information_System
                     sec.Show();
                     Hide();
                 }
+                if (UsernameTextbox.Text == "purchaseofficer")
+                {
+                    PO_Dashboard sec = new PO_Dashboard();
+                    sec.Show();
+                    Hide();
+                }
             }
             //else
             //{

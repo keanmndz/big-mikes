@@ -76,5 +76,11 @@ namespace Big_Mikes_Accounting_Information_System
             Login obj1 = new Login();
             obj1.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Menu obj1 = new Menu();
+            obj1.ShowDialog();
+        }
     }
 }
